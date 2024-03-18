@@ -9,8 +9,8 @@
   },
   "include": [
     "commitlint.config.js",
-    "**/*.ts"
-, "index.js"  ],
+    "**/*.ts", 
+    "index.js"  ],
   "exclude": [
     "node_modules"
   ]

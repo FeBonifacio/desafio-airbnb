@@ -15,5 +15,9 @@
         "react"
     ],
     "rules": {
-    }
+    },
+    "files": [
+        "src/**/*.js",
+        "!index.js"
+    ]
 }

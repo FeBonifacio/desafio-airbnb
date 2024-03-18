@@ -31,7 +31,10 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint:commit"
+      "pre-commit": "npm run lint:commit && prettier --write ."
     }
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
